@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="mybox">
+            <!-- nav -->
+            <div class="nav">
+                <span>Calc</span>
+                <span id="dark"><i class="fa-regular fa-moon"></i></span>
+                <span id="light"><i class="fa-regular fa-sun"></i></span>
+            </div>
+            <!-- mid -->
+            <div class="mid">
+                <div class="expression">
+                    <p></p>
+                </div>
+                <div class="result">
+                    <p></p>
+                </div>
+            </div>
+            <!-- bottom -->
+            <div class="bot">
+                <div class="bot__inner">
+                    <div class="item" id="ac">AC</div>
+                    <div class="item" id="c">C</div>
+                    <div class="item" id="mod">%</div>
+                    <div class="item" id="divide"><i class="fa-solid fa-divide"></i></div>
+                    <div class="item" id="seven">7</div>
+                    <div class="item" id="eight">8</div>
+                    <div class="item" id="nine">9</div>
+                    <div class="item" id="mul"><i class="fa-solid fa-xmark"></i></div>
+                    <div class="item" id="four">4</div>
+                    <div class="item" id="five">5</div>
+                    <div class="item" id="six">6</div>
+                    <div class="item" id="minus"><i class="fa-solid fa-minus"></i></div>
+                    <div class="item" id="one">1</div>
+                    <div class="item" id="two">2</div>
+                    <div class="item" id="three">3</div>
+                    <div class="item" id="plus"><i class="fa-solid fa-plus"></i></div>
+                    <div class="item" id="zero">0</div>
+                    <div class="item" id="decimal">.</div>
+                    <div class="item" id="equal"><i class="fa-solid fa-equals"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
